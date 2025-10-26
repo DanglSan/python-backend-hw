@@ -60,6 +60,7 @@ jobs:
       env:
         PYTHONPATH: ${{ github.workspace }}/hw2/hw
         SHOP_API_DB_TYPE: postgres
+        POSTGRES_ADDRESS: postgres
         POSTGRES_USER: user
         POSTGRES_PASSWORD: password
         POSTGRES_DB: shop_api
